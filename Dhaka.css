@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.info ul{
+    border:5px solid rgb(247, 163, 7);
+    background-color: rgb(4, 4, 73);
+     height: 80px; 
+    margin-top: 10px;
+}
+.info a{
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 5px;
+   
+}
+.info a:hover {
+    transform: scale(1.1);
+}
+.info ul:hover{
+    overflow: hidden;
+}
+.navbar-nav{
+  font-weight: bolder;
+  font-size: 30px;
+  gap: 20px;
+}
+
+.text{
+    margin-left: 40px; 
+    width:300px;
+    color: blue;
+    font-weight: bold;
+    font-size:20px;
+}
+.menu-col a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.menu-col li{
+    list-style-type: none;
+}
+.nav{
+    margin-top:20px;
+    width:300px;
+    background-color:white;
+}
+.drop{
+    position: absolute;
+  display: none;
+  /* margin-top: 50px; */
+  /* margin-left: -500px; */
+
+}
+.dhaka:hover .drop {
+    display: block;
+    display: flex;
+   
+}
+.menu-col a:hover {
+    color:rgb(253, 190, 18);
+    
+}
+.menu-col li:hover{
+    transition: 4s;
+    transform: translate(50px); 
+}
+.dhaka:hover .drop{
+    z-index: 1;
+}
+/*  */
+.next{
+    margin-left: 50px;
+    width:300px;
+    color: blue;
+    font-weight: bold;
+    font-size:20px;
+}
+.menu a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.menu li{
+    list-style-type: none;
+}
+.content{
+    margin-left:-200px;
+    margin-top:20px;
+    width:450px;
+    background-color:white;
+}
+.down{
+ position: absolute;
+  display: none;
+}
+.good:hover .down {
+    display: block;
+    display: flex;
+    z-index: 1;
+   
+}
+.menu a:hover {
+    color:rgb(253, 190, 18);
+    
+}
+.menu li:hover{
+    transition: 4s;
+    transform: translate(50px); 
+}
+/*  */
+
+.Others{
+    margin-left: 40px; 
+    width:300px;
+    color: blue;
+    font-weight: bold;
+    font-size:20px;
+}
+.col a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.col li{
+    list-style-type: none;
+}
+.welcome{
+    margin-top:20px;
+    width:300px;
+    background-color:white;
+}
+.hello{
+    position: absolute;
+  display: none;
+   margin-top: 10px; 
+   margin-left: -300px;
+}
+.Administration li:hover{
+    margin-left: 100px;
+}
+.Administration:hover .hello {
+    display: block;
+    display: flex;
+    z-index: 1;
+   
+}
+.col a:hover {
+    color:rgb(253, 190, 18);
+    
+}
+.col li:hover{
+    transition: 4s;
+    transform: translate(50px); 
+}
+
+/*  */
+
+.Students{
+    margin-left: 40px; 
+    width:300px;
+    color: blue;
+    font-weight: bold;
+    font-size:20px;
+}
+.menu2 a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.menu2 li{
+    list-style-type: none;
+}
+.welcome2{
+    margin-top:20px;
+    width:300px;
+    background-color:white;
+}
+.hello2{
+    position: absolute;
+  display: none;
+   /* margin-top: 10px;  */
+   margin-left: -500px;
+}
+.item li:hover{
+    margin-left: 100px;
+}
+.item:hover .hello2 {
+    display: block;
+    display: flex;
+    z-index: 1;
+   
+}
+.menu2 a:hover {
+    color:rgb(253, 190, 18);
+    
+}
+.menu2 li:hover{
+    transition: 4s;
+    transform: translate(50px); 
+}
+/*  */
+
+/*  */
+ .animated{
+    position: absolute;
+    list-style-type: none;
+    margin-left: -150px;;
+    display: none;
+} 
+
+
+ .animated a{
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+}
+.Research:hover .animated{
+    background-color: white;
+    display: block;
+    z-index: 1;
+}
+.animated a:hover{
+    color:rgb(253, 190, 18);
+}
+.animated li:hover{
+    transition: 4s;
+    transform: translate(50px); 
+} 
+.from{
+    justify-content: center;
+    height: 700px;
+}
+.froms{
+    margin-top: 30px;
+    box-shadow: 10px 20px 20px 20px rgb(181, 179, 179);
+     border: 40px solid white;
+    margin-left: 80px;
+    width: 600px;
+    height: 600px;
+}
+.froms img{
+    margin-top: 40px;
+    margin-left:50px;
+    height: 300px;
+    width: 300px;
+}
+.froms h2{
+   font-size: 30px;
+}
+.vice{
+    width: 1200px;
+    margin-top: 30px;
+    height: 600px;
+    box-shadow: 10px 20px 20px 20px rgb(181, 179, 179);
+    border: 60px solid white;
+    font-size: 25px;
+}
+.vice h4{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.vice p{
+  font-size: 30px;
+}
+
+.professor{ 
+    justify-content: center;
+    border: 3px solid red;
+    /* display: flex; */
+    gap:40px;
+    height: 630px;
+}
+.photo{
+    margin-top: 40px;
+    height: 550px;
+    box-shadow: 10px 20px 20px 20px rgb(181, 179, 179);
+    border: 30px solid white;
+}
+ .photo img{
+    margin-top: 10px; 
+    margin-left: 50px;
+    height: 400px;
+} 
+.video p{
+    width: 1200px;
+  font-size: 30px;
+}
+
+@media screen and (min-width:440px) and (max-width:1000px){
+
+    .navbar-nav{
+        border: 3px solid red;
+       width: 100%;
+    }
+    .drop{
+        flex-wrap: wrap;
+    }
+    .down{
+        margin-top: -100px;
+        margin-left: 170px;
+        flex-wrap: wrap;   
+    }
+    .hello2{
+        font-size: 25px;
+         margin-left:-5px; 
+        flex-wrap: wrap;
+        margin-top: -30px;
+    }
+    .Project{
+        font-size: 24px;
+        margin-left: 150px;
+    }
+    .carousel-item{
+        border: 3px solid red;
+        height: 700px;
+    }
+    
+   .froms{
+    margin-left: 10px;
+    width: 95%;
+   }
+   .froms img{
+    margin-left: 180px;
+   }
+   .froms h2{
+    margin-left: 150px;
+   }
+   .vice{
+    margin-left: 60px;
+    margin-top: 70px;
+   height: 650px;
+    width: 650px;
+    border: 3px solid rgb(255, 0, 64);
+   }
+   .professor{
+    margin-left: -60px;
+    /* margin-top: 600px; */
+    border:40px solid white;
+   }
+   .photo img{
+    /* margin-left: -30px; */
+    margin-top: 70px;
+    margin-left: 100px;
+    border: 3px solid rgb(255, 0, 64);
+    
+   }
+   .photo{
+
+    height: 700px;
+    width: 600px;
+    border: 3px solid rebeccapurple;
+    margin-left: 100px;
+   }
+   .photo div{
+ margin-left: 70px;
+   }
+  /* .video{
+    width: 100%;
+    border: 6px solid rgb(255, 0, 64);
+    margin-top:1680px;
+   }
+   .yout p{
+    width:650px ;
+   } */
+
+}
+
+
+@media screen and (min-width:1001px) and (max-width:1600px){
+
+    .info{
+        display: none;
+    }
+    .navbar-nav{
+        justify-content: center;
+          margin: auto;  
+        font-size: 25px;
+        margin-left: -10px;
+        border: 2px solid rgb(47, 0, 255);
+    }
+    .navbar-brand{
+        display: none;
+    }  
+    .hello2{
+        margin: auto;
+        margin-top: 50px;
+        margin-left: -250px;
+        flex-wrap: wrap; 
+    }
+    .down{
+        margin-left: 50px;
+    }
+    .from{
+        border: 3px solid red;
+        flex-wrap: wrap;
+    }
+    /* .from{
+        height: 600px;
+        border: 3px solid red;
+    }  */
+    /* .froms{
+        flex-wrap: wrap;
+        height: 500px;
+        border: 3px solid red;
+        margin: auto;
+        width: 1400px;
+      margin-left: 300px;
+    }
+    .froms img{
+        margin-left: 200px;
+    }
+    .froms h2{
+        margin-left: 100px;
+    } */
+    /* .vice{
+        width:2000px;
+        /* margin-top:600px; */
+        /* margin-left: -750px;
+        margin-right: 40px;
+        height: 560px;
+        font-size: 25px;
+        border: 3px solid rgb(77, 255, 0);
+    }
+   */ */
+.professor{
+    margin-top: 600px;
+    flex-wrap: wrap;
+}
+   .video{
+    border: 5px solid gold;
+    margin-top: 700px;
+
+   }
+  
+}
+
+
+
+
